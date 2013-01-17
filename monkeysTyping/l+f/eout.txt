@@ -1,0 +1,420 @@
+organGrinder: v0.9
+| Initializing ...
+!!UTT factorial increment: saving off sequence:yzxwvutsrqponmlkjihgfedcba
+| Alphabet = 
+| monkeyObj: Alphabet: ->a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z <-
+| loading file 'test.txt' 
+| printing output every, 1000, loops
+| ...Initialize Complete
+|-----------------------------------------------------------------
+| monkey ID=default uptime=14
+| Alphabet: = monkeyObj: Alphabet: ->a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z <-
+| RandData: Random algorithm=LCG | ->DATA: ALG: LCGS=8037, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=3852, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=4374, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=6723, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=8829, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=1377, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=7443, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=9792, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=2889, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=3060, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=216, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=387, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=10413, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=11673, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=7047, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=2862, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=11700, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=4248, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=5364, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=10980, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=6948, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=2763, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=7641, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=9990, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=11007, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=3555, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=909, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=3258, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=10512, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=10683, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=1305, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=1476, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=7146, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=8406, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=4869, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=684, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=6255, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=10782, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=9720, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=3357, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=5859, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=1674, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=10908, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=1278, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=1206, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=5733, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=6354, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=8703, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=6156, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+| ->DATA: ALG: LCGS=6327, A=1283, B=211, C=1663 + Seed:479, M=11979<- 
+
+| masterpiece: ssaaaassajajsjaajjssjjaassssjsjssjjjsjajaaajsjjjaj
+| successful match: backwardsCheck:wenen
+SuccessfulString:wenen
+regularCheck:wneen
+SuccessfulString:wneen
+regularCheck:eneww
+SuccessfulString:eneww
+backwardsCheck:wwene
+SuccessfulString:wwene
+regularCheck:isisa
+SuccessfulString:isisa
+regularCheck:ssass
+SuccessfulString:ssass
+backwardsCheck:wenee
+SuccessfulString:wenee
+regularCheck:eenew
+SuccessfulString:eenew
+ 
+|-----------------------------------------------------------------
+|-----------------------------------------------------------------
+| monkey ID=default uptime=28
+| Alphabet: = monkeyObj: Alphabet: ->a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z <-
+| RandData: Random algorithm=LCG | ->DATA: ALG: LCGS=5561, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=6507, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=8729, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=171, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=710, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=10764, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=6749, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=9576, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=9125, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=8091, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=6650, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=4329, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=1106, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=3438, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=6155, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=11853, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=4571, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=1953, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=413, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=1557, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=7739, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=2151, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=5462, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=6705, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=11600, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=963, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=2393, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=6309, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=3680, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=7002, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=8828, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=11952, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=9818, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=9972, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=5066, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=2052, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=215, A=1283, B=211, C=1663 + Seed:928, M=11979<- 
+| ->DATA: ALG: LCGS=10666, A=1283, B=211, C=1663 + Seed:929, M=11979<- 
+| ->DATA: ALG: LCGS=2817, A=1283, B=211, C=1663 + Seed:929, M=11979<- 
+| ->DATA: ALG: LCGS=2799, A=1283, B=211, C=1663 + Seed:929, M=11979<- 
+| ->DATA: ALG: LCGS=11709, A=1283, B=211, C=1663 + Seed:929, M=11979<- 
+| ->DATA: ALG: LCGS=4185, A=1283, B=211, C=1663 + Seed:929, M=11979<- 
+| ->DATA: ALG: LCGS=2601, A=1283, B=211, C=1663 + Seed:929, M=11979<- 
+| ->DATA: ALG: LCGS=9432, A=1283, B=211, C=1663 + Seed:929, M=11979<- 
+| ->DATA: ALG: LCGS=324, A=1283, B=211, C=1663 + Seed:929, M=11979<- 
+| ->DATA: ALG: LCGS=3393, A=1283, B=211, C=1663 + Seed:929, M=11979<- 
+| ->DATA: ALG: LCGS=5472, A=1283, B=211, C=1663 + Seed:929, M=11979<- 
+| ->DATA: ALG: LCGS=5967, A=1283, B=211, C=1663 + Seed:929, M=11979<- 
+| ->DATA: ALG: LCGS=3492, A=1283, B=211, C=1663 + Seed:929, M=11979<- 
+| ->DATA: ALG: LCGS=11511, A=1283, B=211, C=1663 + Seed:929, M=11979<- 
+| ->DATA: ALG: LCGS=4086, A=1283, B=211, C=1663 + Seed:929, M=11979<- 
+| ->DATA: ALG: LCGS=6363, A=1283, B=211, C=1663 + Seed:929, M=11979<- 
+| ->DATA: ALG: LCGS=3690, A=1283, B=211, C=1663 + Seed:929, M=11979<- 
+| ->DATA: ALG: LCGS=3987, A=1283, B=211, C=1663 + Seed:929, M=11979<- 
+| ->DATA: ALG: LCGS=3591, A=1283, B=211, C=1663 + Seed:929, M=11979<- 
+| ->DATA: ALG: LCGS=11016, A=1283, B=211, C=1663 + Seed:929, M=11979<- 
+| ->DATA: ALG: LCGS=3294, A=1283, B=211, C=1663 + Seed:929, M=11979<- 
+
+| masterpiece: aijisssijjaijisrsijrsrsijsrjrabjssajjassajjjsssaaa
+| successful match: backwardsCheck:wenen
+SuccessfulString:wenen
+regularCheck:wneen
+SuccessfulString:wneen
+regularCheck:eneww
+SuccessfulString:eneww
+backwardsCheck:wwene
+SuccessfulString:wwene
+regularCheck:isisa
+SuccessfulString:isisa
+regularCheck:ssass
+SuccessfulString:ssass
+backwardsCheck:wenee
+SuccessfulString:wenee
+regularCheck:eenew
+SuccessfulString:eenew
+backwardsCheck:neenw
+SuccessfulString:neenw
+regularCheck:sywwe
+SuccessfulString:sywwe
+regularCheck:dayma
+SuccessfulString:dayma
+backwardsCheck:ssisi
+SuccessfulString:ssisi
+regularCheck:doesd
+SuccessfulString:doesd
+regularCheck:wneen
+SuccessfulString:wneen
+backwardsCheck:eneew
+SuccessfulString:eneew
+regularCheck:iarsa
+SuccessfulString:iarsa
+backwardsCheck:wwene
+SuccessfulString:wwene
+regularCheck:asasa
+SuccessfulString:asasa
+regularCheck:asasa
+SuccessfulString:asasa
+ 
+|-----------------------------------------------------------------
+|-----------------------------------------------------------------
+| monkey ID=default uptime=44
+| Alphabet: = monkeyObj: Alphabet: ->a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z <-
+| RandData: Random algorithm=LCG | ->DATA: ALG: LCGS=9953, A=1283, B=211, C=1663 + Seed:1360, M=11979<- 
+| ->DATA: ALG: LCGS=2277, A=1283, B=211, C=1663 + Seed:1360, M=11979<- 
+| ->DATA: ALG: LCGS=1043, A=1283, B=211, C=1663 + Seed:1360, M=11979<- 
+| ->DATA: ALG: LCGS=8514, A=1283, B=211, C=1663 + Seed:1360, M=11979<- 
+| ->DATA: ALG: LCGS=1538, A=1283, B=211, C=1663 + Seed:1360, M=11979<- 
+| ->DATA: ALG: LCGS=1089, A=1283, B=211, C=1663 + Seed:1360, M=11979<- 
+| ->DATA: ALG: LCGS=5201, A=1283, B=211, C=1663 + Seed:1360, M=11979<- 
+| ->DATA: ALG: LCGS=8217, A=1283, B=211, C=1663 + Seed:1360, M=11979<- 
+| ->DATA: ALG: LCGS=2033, A=1283, B=211, C=1663 + Seed:1360, M=11979<- 
+| ->DATA: ALG: LCGS=9999, A=1283, B=211, C=1663 + Seed:1360, M=11979<- 
+| ->DATA: ALG: LCGS=3419, A=1283, B=211, C=1663 + Seed:1360, M=11979<- 
+| ->DATA: ALG: LCGS=4455, A=1283, B=211, C=1663 + Seed:1360, M=11979<- 
+| ->DATA: ALG: LCGS=5399, A=1283, B=211, C=1663 + Seed:1360, M=11979<- 
+| ->DATA: ALG: LCGS=3069, A=1283, B=211, C=1663 + Seed:1360, M=11979<- 
+| ->DATA: ALG: LCGS=2627, A=1283, B=211, C=1663 + Seed:1360, M=11979<- 
+| ->DATA: ALG: LCGS=8712, A=1283, B=211, C=1663 + Seed:1360, M=11979<- 
+| ->DATA: ALG: LCGS=8468, A=1283, B=211, C=1663 + Seed:1360, M=11979<- 
+| ->DATA: ALG: LCGS=7128, A=1283, B=211, C=1663 + Seed:1360, M=11979<- 
+| ->DATA: ALG: LCGS=11834, A=1283, B=211, C=1663 + Seed:1360, M=11979<- 
+| ->DATA: ALG: LCGS=6733, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+| ->DATA: ALG: LCGS=10953, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+| ->DATA: ALG: LCGS=1134, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+| ->DATA: ALG: LCGS=4617, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+| ->DATA: ALG: LCGS=4104, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+| ->DATA: ALG: LCGS=2043, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+| ->DATA: ALG: LCGS=6876, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+| ->DATA: ALG: LCGS=3924, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+| ->DATA: ALG: LCGS=3510, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+| ->DATA: ALG: LCGS=3429, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+| ->DATA: ALG: LCGS=441, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+| ->DATA: ALG: LCGS=8775, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+| ->DATA: ALG: LCGS=4401, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+| ->DATA: ALG: LCGS=8973, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+| ->DATA: ALG: LCGS=9549, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+| ->DATA: ALG: LCGS=5310, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+| ->DATA: ALG: LCGS=7965, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+| ->DATA: ALG: LCGS=9369, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+| ->DATA: ALG: LCGS=1332, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+| ->DATA: ALG: LCGS=4518, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+| ->DATA: ALG: LCGS=4797, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+| ->DATA: ALG: LCGS=6597, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+| ->DATA: ALG: LCGS=7668, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+| ->DATA: ALG: LCGS=1350, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+| ->DATA: ALG: LCGS=3015, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+| ->DATA: ALG: LCGS=8577, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+| ->DATA: ALG: LCGS=9054, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+| ->DATA: ALG: LCGS=2835, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+| ->DATA: ALG: LCGS=11133, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+| ->DATA: ALG: LCGS=5607, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+| ->DATA: ALG: LCGS=9153, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+| ->DATA: ALG: LCGS=4419, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+| ->DATA: ALG: LCGS=10935, A=1283, B=211, C=1663 + Seed:1361, M=11979<- 
+
+| masterpiece: rjrjjrjijrasisraiksaaassjaajaajssaajjsjaassjajsasa
+| successful match: backwardsCheck:wenen
+SuccessfulString:wenen
+regularCheck:wneen
+SuccessfulString:wneen
+regularCheck:eneww
+SuccessfulString:eneww
+backwardsCheck:wwene
+SuccessfulString:wwene
+regularCheck:isisa
+SuccessfulString:isisa
+regularCheck:ssass
+SuccessfulString:ssass
+backwardsCheck:wenee
+SuccessfulString:wenee
+regularCheck:eenew
+SuccessfulString:eenew
+backwardsCheck:neenw
+SuccessfulString:neenw
+regularCheck:sywwe
+SuccessfulString:sywwe
+regularCheck:dayma
+SuccessfulString:dayma
+backwardsCheck:ssisi
+SuccessfulString:ssisi
+regularCheck:doesd
+SuccessfulString:doesd
+regularCheck:wneen
+SuccessfulString:wneen
+backwardsCheck:eneew
+SuccessfulString:eneew
+regularCheck:iarsa
+SuccessfulString:iarsa
+backwardsCheck:wwene
+SuccessfulString:wwene
+regularCheck:asasa
+SuccessfulString:asasa
+regularCheck:asasa
+SuccessfulString:asasa
+backwardsCheck:wenee
+SuccessfulString:wenee
+backwardsCheck:wwene
+SuccessfulString:wwene
+backwardsCheck:wenee
+SuccessfulString:wenee
+backwardsCheck:eneew
+SuccessfulString:eneew
+regularCheck:isabs
+SuccessfulString:isabs
+regularCheck:dayma
+SuccessfulString:dayma
+regularCheck:asasa
+SuccessfulString:asasa
+regularCheck:eneww
+SuccessfulString:eneww
+SuccessfulString:neneww
+ 
+|-----------------------------------------------------------------
+|-----------------------------------------------------------------
+| monkey ID=default uptime=58
+| Alphabet: = monkeyObj: Alphabet: ->a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z <-
+| RandData: Random algorithm=LCG | ->DATA: ALG: LCGS=10067, A=1283, B=211, C=1663 + Seed:1813, M=11979<- 
+| ->DATA: ALG: LCGS=9327, A=1283, B=211, C=1663 + Seed:1813, M=11979<- 
+| ->DATA: ALG: LCGS=10103, A=1283, B=211, C=1663 + Seed:1813, M=11979<- 
+| ->DATA: ALG: LCGS=10075, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=2943, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=4764, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=3255, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=2745, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=8427, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=5235, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=5121, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=408, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=5433, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=567, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=804, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=3057, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=7299, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=8031, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=7611, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=10368, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=5160, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=879, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=9477, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=3675, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=9789, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=8190, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=9516, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=10680, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=11655, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=11298, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=11967, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=6012, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=1893, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=8502, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=1854, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=6942, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=2166, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=3834, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=6249, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=6324, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=4032, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=2586, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=4344, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=1656, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=10605, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=4146, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=6210, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=10209, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=6522, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+| ->DATA: ALG: LCGS=11457, A=1283, B=211, C=1663 + Seed:1814, M=11979<- 
+
+| masterpiece: xmfeampsdysdgavgjmyadpadpjmpsmgsdysdgamgjvyjvpadpj
+| successful match: backwardsCheck:wenen
+SuccessfulString:wenen
+regularCheck:wneen
+SuccessfulString:wneen
+regularCheck:eneww
+SuccessfulString:eneww
+backwardsCheck:wwene
+SuccessfulString:wwene
+regularCheck:isisa
+SuccessfulString:isisa
+regularCheck:ssass
+SuccessfulString:ssass
+backwardsCheck:wenee
+SuccessfulString:wenee
+regularCheck:eenew
+SuccessfulString:eenew
+backwardsCheck:neenw
+SuccessfulString:neenw
+regularCheck:sywwe
+SuccessfulString:sywwe
+regularCheck:dayma
+SuccessfulString:dayma
+backwardsCheck:ssisi
+SuccessfulString:ssisi
+regularCheck:doesd
+SuccessfulString:doesd
+regularCheck:wneen
+SuccessfulString:wneen
+backwardsCheck:eneew
+SuccessfulString:eneew
+regularCheck:iarsa
+SuccessfulString:iarsa
+backwardsCheck:wwene
+SuccessfulString:wwene
+regularCheck:asasa
+SuccessfulString:asasa
+regularCheck:asasa
+SuccessfulString:asasa
+backwardsCheck:wenee
+SuccessfulString:wenee
+backwardsCheck:wwene
+SuccessfulString:wwene
+backwardsCheck:wenee
+SuccessfulString:wenee
+backwardsCheck:eneew
+SuccessfulString:eneew
+regularCheck:isabs
+SuccessfulString:isabs
+regularCheck:dayma
+SuccessfulString:dayma
+regularCheck:asasa
+SuccessfulString:asasa
+regularCheck:eneww
+SuccessfulString:eneww
+SuccessfulString:neneww
+backwardsCheck:neenw
+SuccessfulString:neenw
+regularCheck:dayma
+SuccessfulString:dayma
+regularCheck:asasa
+SuccessfulString:asasa
+regularCheck:eenew
+SuccessfulString:eenew
+regularCheck:isisa
+SuccessfulString:isisa
+regularCheck:isiss
+SuccessfulString:isiss
+regularCheck:sis

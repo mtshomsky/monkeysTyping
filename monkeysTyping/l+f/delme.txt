@@ -1,0 +1,93 @@
+monkeyAlphabet.pm & monkeyds/monkeyAlphabet.pm
+5c5
+< my $gblDebug = 'd';# = false
+---
+> my $gblDebug = '';# = false
+10,14c10,12
+< 
+< # Allow different modes of Alphabet Generation
+< my $gblConstOneAlphabet = 0;               #  Constant: only one alphabet
+< my $gblConstFactorial = 1;		   #  Factorial: all alphabets without repeating
+< my $gblConstFullCombination = 2;           #  Full: all combinations including repeating
+---
+> # Increment Types
+> my $gblConstFactorial = 0;
+> my $gblConstFullCombination = 1;
+42,43c40
+<     $objData->{INCTYPE} = $gblConstOneAlphabet; #$gblConstFullCombination;#$gblConstFactorial;
+<     #$objData->{INCTYPE} = $gblConstFactorial; #$gblConstFullCombination;#$gblConstFactorial;
+---
+>     $objData->{INCTYPE} = $gblConstFactorial; #$gblConstFullCombination;#$gblConstFactorial;
+48c45
+< #    $objData->{lang} = 'EN';
+---
+>     #$objData->{lang} = 'EN';
+59,81d55
+< sub setIncrementFullCombination
+< {
+<     my $self = shift();
+<     
+<     $self->{INCTYPE} = $gblFullCombination;   
+< }
+< 
+< sub setIncrementConstFactorial
+< {
+<     my $self = shift();
+<     
+<     $self->{INCTYPE} = $gblFullConstFactorial;   
+< }
+< 
+< sub setIncrementOneAlphabet
+< {
+<     my $self = shift();
+<     
+<     $self->{INCTYPE} = $gblConstOneAlphabet;
+< }
+< 
+< 
+< 
+100,103c74,75
+<     if ($self->{INCTYPE} != $gblConstOneAlphabet)
+< 	{
+<     	# generate index translation tables  
+<     	$self->generateIndexTranslationTable();
+---
+>     # generate index translation tables  
+>     $self->generateIndexTranslationTable();
+105,107c77,79
+<     	# increment it for good measure 
+<     	# consider removing
+<     	$self->getAlphabetSetAndIncrement();
+---
+>     # increment it for good measure 
+>     # consider removing
+>     $self->getAlphabetSetAndIncrement();
+109,110c81
+<     	$self->setToZero();
+< 	}
+---
+>     $self->setToZero();
+138c109,110
+<     if ($self->{INCTYPE} == $gblConstFullCombination)	
+---
+>     if (($self->{INCTYPE} == $gblConstFullCombination)||
+> 	($self->{INCTYPE} == $gblConstFactorialCombination))
+148,158d119
+< 
+<     if ($self->{INCTYPE} == $gblConstFactorialCombination)
+<       {
+< 	# set iterator to 0
+< 	for ($lclCurrentDigit = $self->{alphabetSize} - 1; 
+< 	     $lclCurrentDigit >= 0;
+< 	     $lclCurrentDigit--)
+< 	  {
+< 	    ${ $self->{iterator} }[$lclCurrentDigit] = $lclCurrentDigit;
+< 	  }
+<       }
+161d121
+< 
+639c599,600
+< 		print "!!UTT factorial increment: saving off sequence:".$self->IteratorHashValue()."\n";
+---
+> 		print "!!UTT factorial increment: saving off sequence:\n\n".
+> 			$self->IteratorHashValue()."\n";

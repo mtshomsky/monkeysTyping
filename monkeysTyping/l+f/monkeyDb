@@ -1,0 +1,104 @@
+package monkeyObj;
+
+#
+# Todo:
+#      [] Seeding
+#      [] Statistics
+#
+#
+
+# debugging 
+my $gblDebug = ''; #'' = false
+
+# global vars
+my $gblMaxSentenceLength = 50;
+my $gblMinSentenceLength = 10;
+
+my @alphabetSet = (' ',' ',' ',
+		   'a','b','c','d','e','f','g','h','i','j','k','l','m',
+		   'n','o','p','q','r','s','t','u','v','w','x','y','z',
+		   ' ',' ',' ');
+
+#
+# monkeyObj Object Data
+#
+sub new {
+
+    my $objData = {	
+
+	# Id
+	name => 'default',
+
+	# Text Data
+	
+	masterpiece => '',
+	
+	sentenceLength => $gblMinSentenceLength + 
+	    int( rand ($gblMaxSentenceLength - 
+		       %gblMinSentenceLength) ),
+	    
+	alphabetLength => $#alphabetSet,
+	    
+	    
+	# Time data
+	starttime => time(),
+	    
+	uptime => 0,
+	    
+	randomSeed => rand()	    
+    };
+    
+    bless ( $objData );
+}
+
+sub updateTime
+{
+    my $self = shift();
+
+    $self->{uptime} = time() - $self->{starttime};
+}
+
+sub getText 
+{
+    my $self = shift();
+    
+    return $self->{masterpiece};
+}
+
+
+#
+# Create a sentence, add it to masterpiece
+# 
+sub generateSentence
+{
+    my $self = shift();
+    for ($counter = 0; $counter < $self->{sentenceLength}; $counter++)
+    {
+	#debug
+	if ($gblDebug)
+	{
+	    print "generateSentece: counter = $counter,".
+		  "sentence length = $self->{sentenceLength}\n";
+	}
+	
+	my $index =  int (rand ($self->{alphabetLength} + 1));
+
+	#debug
+	if ($gblDebug)
+	{
+	    print "index = $index\n";
+	}
+	
+        $self->{masterpiece} .= $alphabetSet[$index];
+    }
+}
+
+
+sub print
+{
+    my $self = shift();
+    updateTime($self);
+
+    print "monkey ID=$self->{name} uptime=$self->{uptime}\n";
+    print "masterpiece: $self->{masterpiece}\n"; 
+}
